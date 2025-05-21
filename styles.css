@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #403D39;
+    color: #252422;
+}
+
+.container {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    box-shadow: 3px 3px 5px black;
+    background-color: #EB5E28;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.date-of-birth {
+    height: 40px;
+    width: 200px;
+    
+}
+
+.calculate-age {
+    height: 30px;
+    width: 207px;
+    margin-top: 5px;
+    background-color: #CCC5B9;
+    border: none;
+    border-radius: 50px;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 50px;
+    color: #252422;
+    font-size: 1.3em;
+}
